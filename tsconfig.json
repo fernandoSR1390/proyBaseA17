@@ -21,7 +21,27 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@services/*": [
+        "./src/app/services/*"
+      ],
+      "@guards/*": [
+        "./src/app/guards/*"
+      ],
+      "@models/*": [
+        "./src/app/models/*"
+      ],
+      "@material/*": [
+        "./src/app/material/*"
+      ],
+      "@utils/*": [
+        "./src/app/utils/*"
+      ],
+      "@env/*": [
+        "./src/environments/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
